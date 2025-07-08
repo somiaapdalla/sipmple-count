@@ -6,7 +6,7 @@ function App() {
   const handleadd=()=>{
     setcount(count+1)
   }
-  if(count>10){
+  if(count===10){
     alert("you reached 10")
   }
   return (
