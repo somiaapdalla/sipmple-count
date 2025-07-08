@@ -6,6 +6,9 @@ function App() {
   const handleadd=()=>{
     setcount(count+1)
   }
+  if(count>10){
+    alert("you reached 10")
+  }
   return (
     
     <div className="bg-blue-300 h-screen text-center">
